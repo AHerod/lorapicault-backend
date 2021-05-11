@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_media_tlos",
+  "info": {
+    "name": "Tlo",
+    "icon": "digital-tachograph"
+  },
+  "options": {},
+  "attributes": {
+    "Obraz": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Video": {
+      "type": "boolean"
+    }
+  }
+}

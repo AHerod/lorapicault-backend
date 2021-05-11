@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_przyciski_przycisks",
+  "info": {
+    "name": "Przycisk",
+    "icon": "plus-circle"
+  },
+  "options": {},
+  "attributes": {
+    "tekst": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

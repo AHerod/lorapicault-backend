@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "starts",
+  "info": {
+    "name": "Start"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Naglowek": {
+      "type": "string"
+    },
+    "Tytul": {
+      "type": "string"
+    },
+    "Opis": {
+      "type": "richtext"
+    },
+    "Przycisk": {
+      "type": "component",
+      "repeatable": false,
+      "component": "przyciski.przycisk"
+    },
+    "Tlo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "media.tlo"
+    }
+  }
+}
