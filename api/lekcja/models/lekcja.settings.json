@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lekcjas",
+  "info": {
+    "name": "lekcja"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nazwa": {
+      "type": "string"
+    },
+    "opis": {
+      "type": "string"
+    },
+    "czas_trwania": {
+      "type": "string"
+    },
+    "cena": {
+      "type": "float"
+    },
+    "popularna": {
+      "type": "boolean"
+    }
+  }
+}

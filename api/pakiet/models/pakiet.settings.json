@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pakiets",
+  "info": {
+    "name": "pakiet",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nazwa": {
+      "type": "string"
+    },
+    "cena": {
+      "type": "float"
+    },
+    "czas_trwania": {
+      "type": "string"
+    },
+    "uslugi": {
+      "type": "component",
+      "repeatable": true,
+      "component": "grupa.lista"
+    }
+  }
+}

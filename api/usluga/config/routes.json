@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/uslugas",
+      "handler": "usluga.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/uslugas/count",
+      "handler": "usluga.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/uslugas/:id",
+      "handler": "usluga.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/uslugas",
+      "handler": "usluga.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/uslugas/:id",
+      "handler": "usluga.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/uslugas/:id",
+      "handler": "usluga.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

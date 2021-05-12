@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/atuty",
+      "handler": "atuty.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/atuty",
+      "handler": "atuty.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/atuty",
+      "handler": "atuty.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

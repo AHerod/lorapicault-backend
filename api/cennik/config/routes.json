@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/cennik",
+      "handler": "cennik.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/cennik",
+      "handler": "cennik.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/cennik",
+      "handler": "cennik.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

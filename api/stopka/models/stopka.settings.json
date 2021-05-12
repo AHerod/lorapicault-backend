@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "stopkas",
+  "info": {
+    "name": "Stopka",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "telefon": {
+      "type": "component",
+      "repeatable": false,
+      "component": "grupa.element"
+    },
+    "email": {
+      "type": "component",
+      "repeatable": false,
+      "component": "grupa.element"
+    },
+    "adres": {
+      "type": "component",
+      "repeatable": false,
+      "component": "grupa.element"
+    },
+    "instagram": {
+      "type": "component",
+      "repeatable": false,
+      "component": "grupa.element"
+    }
+  }
+}

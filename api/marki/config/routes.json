@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/marki",
+      "handler": "marki.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/marki",
+      "handler": "marki.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/marki",
+      "handler": "marki.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

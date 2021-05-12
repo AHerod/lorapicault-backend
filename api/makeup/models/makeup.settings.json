@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "makeups",
+  "info": {
+    "name": "Makeup"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nazwa": {
+      "type": "string"
+    },
+    "portfolios": {
+      "via": "makeups",
+      "collection": "portfolio"
+    }
+  }
+}

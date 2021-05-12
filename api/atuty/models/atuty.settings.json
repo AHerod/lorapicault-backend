@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "starts",
+  "collectionName": "atuties",
   "info": {
-    "name": "Start",
+    "name": "Atuty",
     "description": ""
   },
   "options": {
@@ -11,24 +11,16 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "naglowek": {
-      "type": "string"
-    },
     "tytul": {
       "type": "string"
     },
     "opis": {
-      "type": "richtext"
+      "type": "string"
     },
-    "przycisk": {
+    "element": {
       "type": "component",
       "repeatable": false,
-      "component": "przyciski.przycisk"
-    },
-    "tlo": {
-      "type": "component",
-      "repeatable": false,
-      "component": "media.tlo"
+      "component": "grupa.element"
     }
   }
 }

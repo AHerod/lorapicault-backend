@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "cenniks",
+  "info": {
+    "name": "Cennik",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "tytul": {
+      "type": "string"
+    },
+    "opis": {
+      "type": "string"
+    },
+    "opis_pakietow": {
+      "type": "string"
+    },
+    "opis_lekcji": {
+      "type": "string"
+    },
+    "opis_vouchera": {
+      "type": "string"
+    },
+    "zdjecie_vouchera": {
+      "type": "string"
+    }
+  }
+}

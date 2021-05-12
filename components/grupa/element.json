@@ -1,13 +1,19 @@
 {
-  "collectionName": "components_media_tlos",
+  "collectionName": "components_grupa_elements",
   "info": {
-    "name": "typ",
-    "icon": "digital-tachograph",
+    "name": "Element",
+    "icon": "splotch",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "obraz": {
+    "tytul": {
+      "type": "string"
+    },
+    "opis": {
+      "type": "text"
+    },
+    "ikona": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -18,8 +24,8 @@
       "plugin": "upload",
       "required": false
     },
-    "video": {
-      "type": "boolean"
+    "url": {
+      "type": "string"
     }
   }
 }

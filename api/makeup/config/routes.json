@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/makeups",
+      "handler": "makeup.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/makeups/count",
+      "handler": "makeup.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/makeups/:id",
+      "handler": "makeup.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/makeups",
+      "handler": "makeup.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/makeups/:id",
+      "handler": "makeup.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/makeups/:id",
+      "handler": "makeup.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

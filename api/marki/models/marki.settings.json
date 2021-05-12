@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "footers",
+  "collectionName": "markis",
   "info": {
-    "name": "footer"
+    "name": "Marki"
   },
   "options": {
     "increments": true,
@@ -10,7 +10,10 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "copyright": {
+    "tytul": {
+      "type": "string"
+    },
+    "opis": {
       "type": "string"
     }
   }

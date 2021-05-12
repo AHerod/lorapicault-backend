@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "uslugas",
+  "info": {
+    "name": "Usluga",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nazwa": {
+      "type": "string"
+    },
+    "opis": {
+      "type": "text"
+    },
+    "czas_trwania": {
+      "type": "string"
+    },
+    "cena": {
+      "type": "float"
+    },
+    "popularna": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

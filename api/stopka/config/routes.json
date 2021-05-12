@@ -2,24 +2,24 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/footer",
-      "handler": "footer.find",
+      "path": "/stopka",
+      "handler": "stopka.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/footer",
-      "handler": "footer.update",
+      "path": "/stopka",
+      "handler": "stopka.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/footer",
-      "handler": "footer.delete",
+      "path": "/stopka",
+      "handler": "stopka.delete",
       "config": {
         "policies": []
       }

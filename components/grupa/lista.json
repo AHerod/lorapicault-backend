@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_grupa_listas",
+  "info": {
+    "name": "lista",
+    "icon": "grip-lines"
+  },
+  "options": {},
+  "attributes": {
+    "element": {
+      "type": "string"
+    }
+  }
+}
