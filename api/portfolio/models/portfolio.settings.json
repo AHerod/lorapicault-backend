@@ -20,6 +20,9 @@
       "collection": "makeup",
       "via": "portfolios",
       "dominant": true
+    },
+    "rozmiar": {
+      "type": "integer"
     }
   }
 }
