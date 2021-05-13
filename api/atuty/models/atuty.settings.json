@@ -19,7 +19,7 @@
     },
     "element": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "grupa.element"
     }
   }
