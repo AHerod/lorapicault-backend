@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/wizyta",
+      "handler": "wizyta.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/wizyta",
+      "handler": "wizyta.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/wizyta",
+      "handler": "wizyta.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

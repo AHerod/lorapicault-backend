@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "cennik",
+  "collectionName": "faqs",
   "info": {
-    "name": "Cennik",
+    "name": "FAQ",
     "description": ""
   },
   "options": {
@@ -17,25 +17,10 @@
     "opis": {
       "type": "string"
     },
-    "opis_pakietow": {
-      "type": "string"
-    },
-    "opis_lekcji": {
-      "type": "string"
-    },
-    "opis_vouchera": {
-      "type": "string"
-    },
-    "zdjecie_vouchera": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
+    "zestaw": {
+      "type": "component",
+      "repeatable": true,
+      "component": "grupa.zestaw"
     },
     "tlo": {
       "model": "file",

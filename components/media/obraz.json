@@ -2,7 +2,8 @@
   "collectionName": "components_media_obrazs",
   "info": {
     "name": "obraz",
-    "icon": "photo-video"
+    "icon": "photo-video",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -25,6 +26,9 @@
     },
     "makeups": {
       "collection": "makeup"
+    },
+    "opis": {
+      "type": "text"
     }
   }
 }

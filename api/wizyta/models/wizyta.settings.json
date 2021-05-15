@@ -1,9 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "galeria",
+  "collectionName": "wizytas",
   "info": {
-    "name": "galeria",
-    "description": ""
+    "name": "wizyta"
   },
   "options": {
     "increments": true,
@@ -11,10 +10,11 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "obraz": {
-      "type": "component",
-      "repeatable": true,
-      "component": "media.obraz"
+    "tytul": {
+      "type": "string"
+    },
+    "opis": {
+      "type": "text"
     },
     "tlo": {
       "model": "file",
@@ -27,11 +27,10 @@
       "plugin": "upload",
       "required": false
     },
-    "opis": {
-      "type": "text"
-    },
-    "tytul": {
-      "type": "string"
+    "krok": {
+      "type": "component",
+      "repeatable": true,
+      "component": "grupa.element"
     }
   }
 }

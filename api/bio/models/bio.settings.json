@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "cennik",
+  "collectionName": "bios",
   "info": {
-    "name": "Cennik",
+    "name": "bio",
     "description": ""
   },
   "options": {
@@ -14,29 +14,6 @@
     "tytul": {
       "type": "string"
     },
-    "opis": {
-      "type": "string"
-    },
-    "opis_pakietow": {
-      "type": "string"
-    },
-    "opis_lekcji": {
-      "type": "string"
-    },
-    "opis_vouchera": {
-      "type": "string"
-    },
-    "zdjecie_vouchera": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
     "tlo": {
       "model": "file",
       "via": "related",
@@ -47,6 +24,31 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "zdjecie": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "galeria": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "opis": {
+      "type": "text"
     }
   }
 }

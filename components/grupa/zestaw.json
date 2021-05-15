@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_grupa_zestaws",
+  "info": {
+    "name": "zestaw",
+    "icon": "edit",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "pytanie": {
+      "type": "string"
+    },
+    "odpowiedz": {
+      "type": "text"
+    }
+  }
+}
