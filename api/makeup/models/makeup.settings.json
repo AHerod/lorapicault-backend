@@ -1,6 +1,6 @@
 {
   "kind": "collectionType",
-  "collectionName": "makeups",
+  "collectionName": "makeup",
   "info": {
     "name": "Makeup"
   },
@@ -12,10 +12,6 @@
   "attributes": {
     "nazwa": {
       "type": "string"
-    },
-    "portfolios": {
-      "via": "makeups",
-      "collection": "portfolio"
     }
   }
 }

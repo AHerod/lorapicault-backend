@@ -1,6 +1,6 @@
 {
   "kind": "singleType",
-  "collectionName": "markis",
+  "collectionName": "marki",
   "info": {
     "name": "Marki",
     "description": ""
@@ -16,6 +16,11 @@
     },
     "opis": {
       "type": "string"
+    },
+    "marka": {
+      "type": "component",
+      "repeatable": true,
+      "component": "grupa.element"
     }
   }
 }

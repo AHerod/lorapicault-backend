@@ -1,6 +1,6 @@
 {
   "kind": "collectionType",
-  "collectionName": "lekcjas",
+  "collectionName": "lekcje",
   "info": {
     "name": "lekcja"
   },

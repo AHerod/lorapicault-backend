@@ -1,6 +1,6 @@
 {
   "kind": "collectionType",
-  "collectionName": "uslugas",
+  "collectionName": "uslugi",
   "info": {
     "name": "Usluga",
     "description": ""

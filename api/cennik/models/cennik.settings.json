@@ -1,6 +1,6 @@
 {
   "kind": "singleType",
-  "collectionName": "cenniks",
+  "collectionName": "cennik",
   "info": {
     "name": "Cennik",
     "description": ""
@@ -27,7 +27,15 @@
       "type": "string"
     },
     "zdjecie_vouchera": {
-      "type": "string"
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }

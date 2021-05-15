@@ -1,9 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "atuty",
+  "collectionName": "galeria",
   "info": {
-    "name": "Atuty",
-    "description": ""
+    "name": "galeria"
   },
   "options": {
     "increments": true,
@@ -11,16 +10,10 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "tytul": {
-      "type": "string"
-    },
-    "opis": {
-      "type": "string"
-    },
-    "element": {
+    "obraz": {
       "type": "component",
       "repeatable": true,
-      "component": "grupa.element"
+      "component": "media.obraz"
     }
   }
 }

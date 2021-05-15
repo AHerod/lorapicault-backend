@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_media_obrazs",
+  "info": {
+    "name": "obraz",
+    "icon": "photo-video"
+  },
+  "options": {},
+  "attributes": {
+    "medium": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "video": {
+      "type": "boolean"
+    },
+    "rozmiar": {
+      "type": "integer"
+    },
+    "makeups": {
+      "collection": "makeup"
+    }
+  }
+}
