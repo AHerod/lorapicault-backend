@@ -24,6 +24,9 @@
       "type": "component",
       "repeatable": true,
       "component": "grupa.lista"
+    },
+    "popularna": {
+      "type": "boolean"
     }
   }
 }
