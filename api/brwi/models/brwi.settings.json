@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "brwis",
+  "info": {
+    "name": "Brwi"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "usluga": {
+      "type": "component",
+      "repeatable": true,
+      "component": "grupa.usluga"
+    }
+  }
+}

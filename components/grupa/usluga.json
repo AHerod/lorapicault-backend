@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_grupa_uslugas",
+  "info": {
+    "name": "usluga",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "nazwa": {
+      "type": "string"
+    },
+    "czas_trwania": {
+      "type": "string"
+    },
+    "cena": {
+      "type": "float"
+    },
+    "popularna": {
+      "type": "boolean"
+    },
+    "opis": {
+      "type": "richtext"
+    }
+  }
+}

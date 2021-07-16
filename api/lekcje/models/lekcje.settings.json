@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "lekcjes",
+  "info": {
+    "name": "Lekcje"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "usluga": {
+      "type": "component",
+      "repeatable": true,
+      "component": "grupa.usluga"
+    }
+  }
+}

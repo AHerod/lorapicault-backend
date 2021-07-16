@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/lekcje",
+      "handler": "lekcje.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/lekcje",
+      "handler": "lekcje.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/lekcje",
+      "handler": "lekcje.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

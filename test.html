@@ -1,0 +1,12 @@
+
+Placing <code>&lt;link&gt;s</code> in the <code>&lt;head&gt;</code>
+
+  Putting <code>&lt;link&gt;s</code> in the <code>&lt;head&gt;</code> is part of proper specification in building an optimized website. When a page first loads, HTML and CSS are being parsed simultaneously; HTML creates the DOM (Document Object Model) and CSS creates the <strong>CSSOM (CSS Object Model)</strong>. Both are needed to create the visuals in a website, allowing for a quick "first meaningful paint" timing. This progressive rendering is a category optimization sites are measured in their performance scores. Putting stylesheets near the bottom of the document is what prohibits progressive rendering in many browsers. Some browsers block rendering to avoid having to repaint elements of the page if their styles change. The user is then stuck viewing a blank white page. Other times there can be flashes of unstyled content (FOUC), which show a webpage with no styling applied.
+
+  Placing <code>&lt;script&gt;s</code> just before <code>&lt;&#47;body&gt;</code>
+
+  <code>&lt;script&gt;</code> tags block HTML parsing while they are being downloaded and executed which can slow down your page. Placing the scripts at the bottom will allow the HTML to be parsed and displayed to the user first.
+
+    An exception for positioning of <code>&lt;script&gt;s</code> at the bottom is when your script contains document.write(), but these days it's not a good practice to use document.write(). Also, placing <code>&lt;script&gt;s</code> at the bottom means that the browser cannot start downloading the scripts until the entire document is parsed. This ensures your code that needs to manipulate DOM elements will not throw an error and halt the entire script. If you need to put <code>&lt;script&gt;</code> in the <code>&lt;head&gt;</code>, use the defer attribute, which will achieve the same effect of downloading and running the script only after the HTML is parsed.
+
+  Keep in mind that putting scripts just before the closing <code>&lt;&#47;body&gt;</code> tag will create the illusion that the page loads faster on an empty cache (since the scripts won't block downloading the rest of the document). However, if you have some code you want to run during page load, it will only start executing after the entire page has loaded. If you put those scripts in the <code>&lt;head&gt;</code> tag, they would start executing before - so on a primed cache the page would actually appear to load faster.

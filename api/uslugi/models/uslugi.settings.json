@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "uslugis",
+  "info": {
+    "name": "Uslugi"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Usluga": {
+      "type": "component",
+      "repeatable": true,
+      "component": "grupa.usluga"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/uslugi",
+      "handler": "uslugi.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/uslugi",
+      "handler": "uslugi.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/uslugi",
+      "handler": "uslugi.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/brwi",
+      "handler": "brwi.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/brwi",
+      "handler": "brwi.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/brwi",
+      "handler": "brwi.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
