@@ -47,6 +47,9 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "opis_brwi": {
+      "type": "string"
     }
   }
 }
