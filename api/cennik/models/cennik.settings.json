@@ -50,6 +50,9 @@
     },
     "opis_brwi": {
       "type": "string"
+    },
+    "dojazd": {
+      "type": "string"
     }
   }
 }
